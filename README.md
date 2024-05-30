@@ -16,11 +16,11 @@ This repository contains a simple console application that helps a group of peop
 
 ### Step 1: Save the source code
 
-Save the provided source code in a file named `main.cpp`
+Save the provided source code in a file named 'main.cpp'
 
 ### Step 2: Build the application
 
-Use a C++ compiler to build the application. For example, with `g++`:
+Use a C++ compiler to build the application. For example, with g++:
 
 ``g++ -o cashflow main.cpp``
 
@@ -46,19 +46,19 @@ The application will display the final transactions required to settle the debts
 
 The code is structured as follows:
 
-### `getNetAmounts`
+### getNetAmounts
 
 Calculates the net amount each person has to pay or receive
 
-### `minCashflowRec`
+### minCashflowRec
 
 Recursive function to calculate the minimum cashflow
 
-### `minCashflow`
+### minCashflow
 
 Main function to calculate the minimum cashflow and display the transactions
 
-### `main`
+### main
 
 The entry point of the application, handles user input and output
 
